@@ -1,0 +1,68 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        "base-02": "#fff",
+        gray: {
+          "100": "#fefefe",
+          "200": "#909090",
+          "300": "#222",
+          "400": "#1f1f21",
+          "500": "#191b1f",
+          "600": "#1a1a1a",
+          "700": "#0e0e0e",
+          "800": "#110915",
+          "900": "rgba(255, 255, 255, 0.7)",
+          "1000": "rgba(255, 255, 255, 0.25)",
+          "1100": "rgba(255, 255, 255, 0.6)",
+          "1200": "rgba(255, 255, 255, 0.9)",
+          "1300": "rgba(255, 255, 255, 0.4)",
+        },
+        whitesmoke: {
+          "100": "#f9f9f9",
+          "200": "#f8f8f8",
+        },
+        primary: "#345dee",
+        darkslateblue: "#6f348e",
+        darkgray: "#979797",
+        neutral: "#dfe4ea",
+        deepskyblue: "#18ade4",
+        gainsboro: "#e7e6e7",
+        placeholder: "#eff2f6",
+        paragraph: "#3e4462",
+        dark: "#18214d",
+        "base-01": "#000",
+        orchid: "#aa58aa",
+        crimson: "#ee3465",
+      },
+      spacing: {},
+      fontFamily: {
+        "body-16-regular": "Inter",
+      },
+      borderRadius: {
+        "3xs": "10px",
+        "7xs-8": "5.8px",
+        "10xs-9": "2.9px",
+      },
+    },
+    fontSize: {
+      base: "16px",
+      "71xl": "90px",
+      "13xl": "32px",
+      "46xl": "65px",
+      xl: "20px",
+      "3xl": "22px",
+      sm: "14px",
+      "37xl": "56px",
+      "xs-7": "11.7px",
+      "sm-1": "13.1px",
+      lg: "18px",
+      inherit: "inherit",
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};
